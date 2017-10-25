@@ -1,4 +1,0 @@
-"Rule: ocaml: ml -> cmo & cmi (%=src/sample )": "\161@W.\240\025\177\025\031\185iwB\252\135\237"
-"Rule: ocaml dependencies ml (%=src/sample )": "T\130Bc\153\227\243\225\166q\152\160\175j\235K"
-"Rule: ocaml: cmo* -> byte (%=src/sample )": "C\1552\222W%f jK\241(\153\160<="
-"Resource: /Users/kogaishinichi/sandbox_ocaml_bytecode/src/sample.ml": "\168\171\146?Y &\015j\252I\207\130L\150\225"
