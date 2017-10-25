@@ -1,0 +1,8 @@
+### Starting build.
+# Target: src/sample.ml.depends, tags: { annot, custom, extension:ml, file:src/sample.ml, ocaml, ocamldep, quiet, thread, traverse }
+ocamlfind ocamldep -modules src/sample.ml > src/sample.ml.depends
+# Target: src/sample.cmo, tags: { annot, byte, compile, custom, extension:cmo, extension:ml, file:src/sample.cmo, file:src/sample.ml, implem, ocaml, quiet, thread, traverse }
+ocamlfind ocamlc -c -annot -thread -I src -o src/sample.cmo src/sample.ml
+# Target: src/sample.byte, tags: { annot, byte, custom, dont_link_with, extension:byte, file:src/sample.byte, link, ocaml, program, quiet, thread, traverse }
+ocamlfind ocamlc -linkpkg -custom -thread -I src src/sample.cmo -o src/sample.byte
+# Compilation successful.

@@ -1,0 +1,22 @@
+"src/sample.ml" 1 0 4 "src/sample.ml" 1 0 6
+type(
+  unit
+)
+"src/sample.ml" 1 0 9 "src/sample.ml" 1 0 22
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/sample.ml" 1 0 23 "src/sample.ml" 1 0 37
+type(
+  string
+)
+"src/sample.ml" 1 0 9 "src/sample.ml" 1 0 37
+call(
+  stack
+)
+type(
+  unit
+)
